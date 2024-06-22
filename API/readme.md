@@ -1,4 +1,4 @@
-> (APIs Explained | Real World Examples)[https://www.youtube.com/watch?v=ZveW4_ZJtVY]
+> [APIs Explained | Real World Examples](https://www.youtube.com/watch?v=ZveW4_ZJtVY)
 
 # Understanding APIs
 APIs, or Application Programming Interfaces, allow different software applications to communicate with each other.
