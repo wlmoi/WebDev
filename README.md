@@ -1,3 +1,6 @@
+TLDR
+
+'''haskell
 Next.js dan TypeScript:
 Next.js adalah kerangka kerja React yang memungkinkan Anda membuat aplikasi web dengan cepat. Ia memiliki fitur-fitur seperti server-side rendering (SSR), static site generation (SSG), dan routing yang kuat.
 
@@ -11,3 +14,4 @@ CRUD (Create, Read, Update, Delete) adalah operasi dasar yang digunakan dalam pe
 
 Headless CMS:
 Headless CMS adalah sistem manajemen konten yang memisahkan antara backend (tempat data disimpan) dan frontend (tempat data ditampilkan). Ini memungkinkan Anda mengelola konten tanpa harus khawatir tentang tampilan atau presentasi.
+'''
