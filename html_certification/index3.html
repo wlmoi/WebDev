@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #f4f4f9;
+        }
+
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #333;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        #navbar header {
+            font-size: 1.5em;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .nav-link {
+            display: block;
+            color: #bbb;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 5px;
+        }
+
+        .nav-link:hover {
+            color: #fff;
+        }
+
+        #main-doc {
+            margin-left: 270px;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        .main-section {
+            margin-bottom: 40px;
+        }
+
+        .main-section header {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        code {
+            background-color: #e4e4e4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 800px) {
+            #navbar {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+
+            #main-doc {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Documentation Topics</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Getting_Started">Getting Started</a>
+        <a class="nav-link" href="#Basic_Syntax">Basic Syntax</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <p>Welcome to the technical documentation page. Here we will discuss various topics related to programming and software development.</p>
+            <p>This documentation is meant to provide you with a comprehensive understanding of the basic concepts and syntax used in programming.</p>
+            <code>print("Hello, World!")</code>
+        </section>
+        <section id="Getting_Started" class="main-section">
+            <header>Getting Started</header>
+            <p>Before you start coding, you need to set up your development environment. This includes installing a code editor and the necessary compilers or interpreters.</p>
+            <p>Choose a text editor or an Integrated Development Environment (IDE) that suits your needs. Popular choices include VSCode, Sublime Text, and PyCharm.</p>
+            <code>sudo apt-get install python3</code>
+        </section>
+        <section id="Basic_Syntax" class="main-section">
+            <header>Basic Syntax</header>
+            <p>Programming syntax refers to the set of rules that define the combinations of symbols that are considered to be correctly structured programs in that language.</p>
+            <p>Understanding the basic syntax is crucial for writing error-free code. This includes learning about statements, expressions, and blocks of code.</p>
+            <code>if (condition) { /* code */ }</code>
+        </section>
+        <section id="Variables" class="main-section">
+            <header>Variables</header>
+            <p>Variables are used to store data that can be used and manipulated throughout your program. They have a name and a value assigned to them.</p>
+            <p>In many programming languages, you need to declare the type of data a variable will hold. This is known as type declaration.</p>
+            <code>int age = 25;</code>
+            <ul>
+                <li>Variable Declaration</li>
+                <li>Variable Initialization</li>
+                <li>Variable Scope</li>
+                <li>Variable Naming Conventions</li>
+                <li>Variable Types</li>
+            </ul>
+        </section>
+        <section id="Functions" class="main-section">
+            <header>Functions</header>
+            <p>Functions are reusable blocks of code that perform a specific task. They help to modularize your code and make it more readable and maintainable.</p>
+            <p>You can pass data to functions, and they can return data after performing their tasks. Functions can be built-in or user-defined.</p>
+            <code>def my_function():</code>
+            <ul>
+                <li>Function Definition</li>
+                <li>Function Call</li>
+                <li>Function Parameters</li>
+                <li>Function Return Value</li>
+                <li>Anonymous Functions</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
